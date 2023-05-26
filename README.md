@@ -16,4 +16,13 @@ Installation
 	Execute the script: ./deploy-ssl-nextcloud.sh
   
 	Follow the the steps on main menu.
+	
+Usage
+	
+Prerequisites 
+	
+	DNS API variables: https://github.com/acmesh-official/acme.sh/wiki/dnsapi
+	
+	TrueNAS API Key: https://sysadmin102.com/2023/05/how-to-generate-api-keys-on-truenas
+
   
