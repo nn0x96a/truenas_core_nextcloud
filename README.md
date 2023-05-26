@@ -3,7 +3,7 @@ Script to deploy SSL on nextcloud jail on TrueNAS CORE 13 or higher.
 
 Installation
 
-  Login to jail via SSH: iocage console <Jail Name>
+  Login to jail via SSH: iocage console "Jail Name"
 	
   Install git: pkg install git
 	
