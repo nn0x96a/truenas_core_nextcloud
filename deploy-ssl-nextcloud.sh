@@ -5,13 +5,13 @@
 
 # Instructions on how to use this script:
 # iocage console <Jail Name>
-# wget 
+# git clone https://github.com/nn0x96a/truenas_core_nextcloud
 # chmod 755 deploy-ssl-nextcloud.sh
 # ./deploy-ssl-nextcloud.sh
 # SCRIPT: deploy-ssl-nextcloud.sh
 # AUTHOR: NHAN NGUYEN
 # PLATFORM: TrueNAS CORE 13.0 or higher Nextcloud Jail
-# 
+# URL: https://github.com/nn0x96a/truenas_core_nextcloud
 
 ##########################################################
 ################ BEGINNING OF MAIN #######################
@@ -170,8 +170,8 @@ deploy_cert_nextcloud() {
     while true; do
         read -p "Do you wish to continue? Y/N: " ANSWER
         case $ANSWER in
-            [Yy]* ) #./acme.sh --register-account -m "$EMAIL";
-                    #./acme.sh --issue --dns "$DNSAPI" -d "$DOMAIN" -d "*.$DOMAIN";
+            [Yy]* ) ./acme.sh --register-account -m "$EMAIL";
+                    ./acme.sh --issue --dns "$DNSAPI" -d "$DOMAIN" -d "*.$DOMAIN";
                     update_nginx_conf;
                     ./acme.sh --install-cronjob;
                     menu;;
