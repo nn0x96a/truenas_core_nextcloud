@@ -137,7 +137,7 @@ edit_config_php() {
 
 # This function will edit the account.conf in /root/.acme.sh/account.conf
 edit_account_conf() {
-    printf "You will need DNS API credentials and TrueNAS API Key before proceeding.\n\n"
+    printf "You will need DNS API credentials before proceeding.\n\n"
     printf "Visit ACME.SH Wiki Page to get the correct config for your DNS API:\n"
     printf "https://github.com/acmesh-official/acme.sh/wiki/dnsapi\n\n"
     printf "Input DNS API variables or paste it, and Ctrl-D when done\n"
