@@ -5,7 +5,7 @@
 
 # Instructions on how to use this script:
 # iocage console <Jail Name>
-# git clone https://github.com/nn0x96a/truenas_core_nextcloud
+# curl -LJO https://github.com/nn0x96a/truenas_core_nextcloud/edit/main/deploy-ssl-nextcloud.sh
 # chmod 755 deploy-ssl-nextcloud.sh
 # ./deploy-ssl-nextcloud.sh
 # SCRIPT: deploy-ssl-nextcloud.sh
