@@ -7,7 +7,7 @@ Installation
 	
   Download bash script:
 
-  curl -LJO https://github.com/nn0x96a/truenas_core_nextcloud/edit/main/deploy-ssl-nextcloud.sh
+  curl -LJO  https://raw.githubusercontent.com/nn0x96a/truenas_core_nextcloud/main/deploy-ssl-nextcloud.sh
   
 	Set execute permission: chmod 755 deploy-ssl-nextcloud.sh
   
